@@ -262,6 +262,7 @@ margin-bottom: 50px;
 
 .team-position {
   margin: 0px;
+  padding-bottom: 30px;
   line-height: 1.2;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
