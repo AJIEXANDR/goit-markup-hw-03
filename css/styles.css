@@ -7,6 +7,7 @@
   --button-bgc: #f5f4fa;
   --hero-bgc: #2F303A;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--main-bgc);
@@ -43,7 +44,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* -----------------------------------------------Lists for Portfolio----------------------------------------*/
+/*-----------------------------------------------Lists for Portfolio----------------------------------------*/
 .list,
 .features-list {
   list-style: none;
@@ -225,7 +226,6 @@ display: flex;
 }
 
 /*------------------------------------------------------------our team------------------------------------------------------ */
-
 .our-team {
   background-color: var(--button-bgc);
   
@@ -250,6 +250,7 @@ display: flex;
 margin-top: 0px;
 margin-bottom: 50px;
 }
+
 .team-name {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -303,8 +304,6 @@ margin-bottom: 50px;
   margin-right: 8px;
 }
 
-
-
 .filter-btns {
   display: flex;
   justify-content: center;
@@ -347,12 +346,14 @@ margin-bottom: 50px;
   display: block;
   max-width: 100%;
 }
+
 .list-contacts {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
+
 .list-contacts:hover,
 .list-contacts:focus {
   color: var(--active-element-color);
@@ -383,7 +384,6 @@ margin-bottom: 50px;
   text-decoration: none;
 }
 
-
 /*--------------------------------------------------------------Footer-------------------------------------------------------*/
 
 .footer {
@@ -408,7 +408,6 @@ margin-bottom: 50px;
 }
 
 /*------------------------------------------------------------footer tel-------------------------------------------------------*/
-
 
 .item-contacts + .item-contacts {
   margin-top: 9px;
