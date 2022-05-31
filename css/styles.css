@@ -122,7 +122,6 @@ margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
   /* outline: 2px solid blue; */
-  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -154,10 +153,6 @@ margin-left: auto;
 }
                                               
 /*------------------------------------------------------------ features------------------------------------------ */
-.features {
-  margin-bottom: 94px;
-}
-
 .item-img {
   background-color: #F5F4FA;
   margin-bottom: 30px;
@@ -209,7 +204,7 @@ display: flex;
 }
 /*-------------------------------------------------------------our-job----------------------------------------------------- */
 .our-job {
-  margin-bottom: 94px;
+ padding-bottom: 94px;
 }
 
 .our-job-list{
@@ -252,7 +247,7 @@ margin-bottom: 50px;
 }
 
 .team-name {
-  margin-top: 30px;
+  margin: 0;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -262,10 +257,14 @@ margin-bottom: 50px;
 
 .team-position {
   margin: 0px;
-  padding-bottom: 30px;
   line-height: 1.2;
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
+}
+
+.team-data {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
  
 .item img {
