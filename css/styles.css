@@ -70,7 +70,7 @@ body {
 /* -----------------------------------------------------header------------------------------------------------ */
 
 .page-header {
-  border: 1px solid #ECECEC;
+  
 }
 
 .header-content{
@@ -79,7 +79,7 @@ body {
 }
 .nav {
   display: flex;
-  align-items: center;
+  align-items:baseline;
 }
 
 .nav-list {
@@ -117,12 +117,23 @@ margin-left: auto;
 
 /* ---------------------------------------------------------Hero----------------------------------------------- */
 .hero {
+  
+}
+
+.overlay {
+  border-top: 1px solid #ECECEC;
   text-align: center;
-  background-color: var(--hero-bgc);
   padding-top: 200px;
   padding-bottom: 200px;
-  /* outline: 2px solid blue; */
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url("../img/hero-img.jpg");
 }
+
+
 
 .hero-title {
   margin-top: 0px;
@@ -170,8 +181,20 @@ margin-left: auto;
 
 .features-list {
 display: flex;
-
 }
+
+.features-list .item::before {
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-image: url(../img/antenna.svg);
+  display: block;
+  border-radius: 4px;
+}
+
+
+
 
 .features-list .item {
   width: 270px;
@@ -337,7 +360,7 @@ margin-bottom: 50px;
 
 .foto-item {
   /* background-color: tomato; */
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
